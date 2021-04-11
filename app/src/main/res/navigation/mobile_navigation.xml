@@ -22,4 +22,14 @@
         android:name="com.rahul009.newsapp.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/TOI"
+        android:name="com.rahul009.newsapp.Fragment.TOI"
+        android:label="TOI"
+        tools:layout="@layout/fragment_t_o_i" />
+    <fragment
+        android:id="@+id/zee"
+        android:name="com.rahul009.newsapp.Fragment.Zee"
+        android:label="Zee"
+        tools:layout="@layout/fragment_zee" />
 </navigation>

@@ -30,6 +30,6 @@ public class GalleryFragment extends Fragment {
                 textView.setText(s);
             }
         });
-        return root;
+        return textView;
     }
 }

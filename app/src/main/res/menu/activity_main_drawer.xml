@@ -5,16 +5,36 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/cnn"
+            android:icon="@drawable/cnnicon"
+            android:title="CNN" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/ajtk"
+            android:icon="@drawable/ajtkicon"
+            android:title="Ajtak" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/bbc"
+            android:icon="@drawable/bbcicon"
+            android:title="BCC" />
+        <item
+            android:id="@+id/toi"
+            android:icon="@drawable/toiicon"
+            android:title="TOI" />
+        <item
+            android:id="@+id/zee"
+            android:icon="@drawable/zeeicon"
+            android:title="ZEE" />
     </group>
+    <item android:title="UpComing">
+        <menu>
+            <item
+                android:id="@+id/ny"
+                android:icon="@android:drawable/edit_text"
+                android:title="New York Time">
+
+            </item>
+        </menu>
+
+
+    </item>
 </menu>
