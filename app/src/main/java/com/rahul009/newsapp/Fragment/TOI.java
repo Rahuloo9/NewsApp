@@ -7,8 +7,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 
 import com.rahul009.newsapp.R;
+import com.rahul009.newsapp.WebviewController;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -61,6 +63,10 @@ public class TOI extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_t_o_i, container, false);
+        View view= inflater.inflate(R.layout.fragment_t_o_i, container, false);
+        WebView webView=view.findViewById(R.id.webtoi);
+        webView.loadUrl("https://timesofindia.indiatimes.com/topic/official-website");
+        webView.setWebViewClient(new WebviewController());
+        return view;
     }
 }
