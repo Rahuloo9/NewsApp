@@ -51,7 +51,7 @@ public class Zee extends Fragment {
 
         View view=inflater.inflate(R.layout.fragment_zee, container, false);
         WebView webView=view.findViewById(R.id.Zeeweb);
-        webView.loadUrl("https://zeenews.india.com/");
+        webView.loadUrl("https://www.cricbuzz.com/");
         webView.setWebViewClient(new WebviewController());
         return view;
     }

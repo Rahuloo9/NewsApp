@@ -13,17 +13,22 @@
             android:icon="@drawable/ajtkicon"
             android:title="Ajtak" />
         <item
+            android:id="@+id/cricketr"
+            android:title="Cricket"
+            android:icon="@drawable/ajtkicon">
+
+        </item>
+        <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/bbcicon"
             android:title="BCC" />
-        <item
-            android:id="@+id/timeofindia"
-            android:icon="@drawable/toiicon"
-            android:title="TOI" />
+
         <item
             android:id="@+id/zee"
             android:icon="@drawable/zeeicon"
             android:title="ZEE" />
+
+
     </group>
     <item android:title="UpComing">
         <menu>
@@ -33,6 +38,7 @@
                 android:title="New York Time">
 
             </item>
+
         </menu>
 
 

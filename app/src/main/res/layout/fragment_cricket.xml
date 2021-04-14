@@ -3,17 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment.TOI">
+    tools:context=".Fragment.CricketFragment">
 
-    <LinearLayout
+    <WebView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <WebView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/webtoi"/>
-    </LinearLayout>
-
+        android:id="@+id/cricketWeb"/>
 </FrameLayout>
